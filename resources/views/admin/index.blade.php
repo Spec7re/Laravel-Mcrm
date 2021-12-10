@@ -1,4 +1,4 @@
-@extends('layouts.admin-template')
+@extends('layouts.admin-twitter')
 
 @section('content')
     <div class="container">
