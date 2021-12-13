@@ -27,7 +27,7 @@
                         <li>Employees</li>
                     </ul>
 
-                    <a class="btn btn-lg btn-block btn-outline-primary"
+                    <a class="btn btn-lg btn-block btn-primary"
                             href="{{ route('employee.index') }}">Create New</a>
                 </div>
             </div>
