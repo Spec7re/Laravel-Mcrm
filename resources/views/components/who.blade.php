@@ -3,7 +3,7 @@
         You are logged in as <strong>ADMINISTRATOR</strong>!
     </p>
 @else
-    <p class="text-danger">
+    <p class="text-info">
         You are logged OUT as <strong>ADMINISTRATOR</strong>!
     </p>
 
@@ -14,7 +14,7 @@
         You are logged in as <strong>COMPANY</strong> :: {{Auth::guard('company')->user()->name}} !
     </p>
 @else
-    <p class="text-danger">
+    <p class="text-info">
         You are logged OUT as <strong>COMPANY</strong>!
     </p>
 
@@ -25,7 +25,7 @@
         You are logged in as <strong>EMPLOYEE</strong>!
     </p>
 @else
-    <p class="text-danger">
+    <p class="text-info">
         You are logged OUT as <strong>EMPLOYEE</strong>!
     </p>
 
